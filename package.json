@@ -1,0 +1,27 @@
+{
+  "name": "create-vucv-app",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ccc": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vu-cv/create-vucv-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vu-cv/create-vucv-app/issues"
+  },
+  "homepage": "https://github.com/vu-cv/create-vucv-app#readme",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "vucv-generate-new": "file:../vucv-generate-new"
+  }
+}
