@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "ccc": "./index.js"
+    "create-vucv-app": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,6 +22,6 @@
   "homepage": "https://github.com/vu-cv/create-vucv-app#readme",
   "dependencies": {
     "commander": "^5.1.0",
-    "vucv-generate-new": "file:../vucv-generate-new"
+    "vucv-generate-new": "1.0.2"
   }
 }
